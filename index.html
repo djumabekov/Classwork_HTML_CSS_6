@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            max-width: 1440px;
+            background-color: royalblue;
+            margin: auto;
+            
+        }
+        .logo{
+            width: 300px;
+            height: 70px;
+            background-color: salmon;
+            text-align:center;
+            line-height: 70px;
+            display: inline-block;
+        }
+        .auth{
+            display: inline-block;
+            margin-left: 1000px;
+        }
+        a{
+            color: white;
+        }
+        nav{
+            max-width: 1440px;
+            background-color: thistle;
+            margin: auto;
+            margin-top: 10px;
+        }
+        nav>ul>li{
+            display: inline-block;
+            padding: 0 10px;
+            height: 70px;
+            line-height: 70px;
+        }
+        nav>ul>li:hover{
+            background-color: gray;
+            cursor: pointer;
+        }
+        a{
+            text-decoration:none;
+        }
+        a:hover{
+            color: rgb(0, 0, 0);
+        }
+        
+        #main{
+            background-color: darkorange;
+            max-width: 1440px;
+            height: 500px;
+            border-radius: 10px;
+            padding: 10px;
+            margin: auto;
+            margin-top: 10px;
+            
+        }
+        #main h1{
+            text-align: center;
+        }
+        #main:target{
+            border: solid 6px red;
+        }
+
+        #about{
+            background-color: rgb(65, 121, 94);
+            max-width: 1440px;
+            height: 500px;
+            border-radius: 10px;
+            padding: 10px;
+            margin: auto;
+            margin-top: 10px;
+        }
+        #about h1{
+            text-align: center;
+        }
+        
+        #footer{
+            background-color: rgb(106, 109, 107);
+            width: 100%;
+            height: 100px;
+            border-radius: 10px;
+            padding: 10px;
+            margin: auto;
+            margin-top: 10px;
+        }
+        #footer h1{
+            text-align: center;
+        }
+
+    </style>
+    </head>
+<body>
+    <header>
+        <div class="logo">
+            LOGO
+        </div>
+        <div class="auth">
+            <a href="#">Вход</a> 
+            <a href="#">Регистрация</a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li> <a href="#main">Главная</a> </li>
+            <li> <a href="#about"></a>О нас</a></li>
+            <li> <a href="#footer"></a>Контакты</a></li>
+            <li> <a href="#feedback"></a>Обратная связь</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="main">
+            <article>
+                <h1>Главная страница</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et est labore neque ex. Nesciunt ab ipsam quia, ipsum vitae totam soluta sunt delectus ex debitis ratione neque quaerat quis mollitia.</p>
+            </article>
+        </section>
+        <section id="about">
+            <article>
+                <h1>О нас</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et est labore neque ex. Nesciunt ab ipsam quia, ipsum vitae totam soluta sunt delectus ex debitis ratione neque quaerat quis mollitia.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <section id="footer">
+            <article>
+                <h1>Подвал</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et est labore neque ex. Nesciunt ab ipsam quia, ipsum vitae totam soluta sunt delectus ex debitis ratione neque quaerat quis mollitia.</p>
+            </article>
+        </section>
+    </footer>
+</body>
+</html>
